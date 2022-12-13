@@ -1,6 +1,5 @@
 package pre.audience.model.domain;
 
-import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import lombok.AllArgsConstructor;
@@ -14,11 +13,8 @@ import lombok.Setter;
 @NoArgsConstructor
 @Document(collection="cataudiences")
 public class CatAudiences {
-	
-	@Id
-	private String id;
-	
-	private int sessions;
-	private int viewers;
-	private double income;
+	private String provincia;
+	private String sesiones;
+	private String viewers;
+	private String income;
 }

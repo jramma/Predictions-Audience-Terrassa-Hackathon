@@ -1,6 +1,5 @@
 package pre.audience.model.domain;
 
-import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import lombok.AllArgsConstructor;
@@ -12,37 +11,35 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-@Document(collection="nationaudiences")
+@Document(collection = "nationaudiences")
 public class NationAudiences {
-	
-	@Id
-	private int id;
-	
-	private int films;
-	private int filmsCat;
-	private int filmsEs;
-	private int filmsUe;
-	private int filmsUs;
-	private int filmsRest;
-	
-	private int sessions;
-	private int sessionsCat;
-	private int sessionsEs;
-	private int sessionsUe;
-	private int sessionsUs;
-	private int sessionsRest;
-	
-	private int viewers;
-	private int viewersCat;
-	private int viewersEs;
-	private int viewersUe;
-	private int viewersUs;
-	private int viewersRest;
-	
-	private double income;
-	private double incomeCat;
-	private double incomeEs;
-	private double incomeUe;
-	private double incomeUs;
-	private double incomeRest;
+
+	private String year;
+	private String films;
+	private String filmsCat;
+	private String filmsEs;
+	private String filmsUe;
+	private String filmsUs;
+	private String filmsRest;
+
+	private String sessions;
+	private String sessionsCat;
+	private String sessionsEs;
+	private String sessionsUe;
+	private String sessionsUs;
+	private String sessionsRest;
+
+	private String viewers;
+	private String viewersCat;
+	private String viewersEs;
+	private String viewersUe;
+	private String viewersUs;
+	private String viewersRest;
+
+	private String income;
+	private String incomeCat;
+	private String incomeEs;
+	private String incomeUe;
+	private String incomeUs;
+	private String incomeRest;
 }

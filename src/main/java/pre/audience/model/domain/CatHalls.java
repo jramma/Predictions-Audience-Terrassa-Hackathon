@@ -1,6 +1,5 @@
 package pre.audience.model.domain;
 
-import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import lombok.AllArgsConstructor;
@@ -15,10 +14,8 @@ import lombok.Setter;
 @Document(collection="cathalls")
 public class CatHalls {
 	
-	@Id
-	private String id;
-	
-	private int filmHalls;
-	private int screens;
-	private int capacity;
+	private String comarca;
+	private String filmHalls;
+	private String screens;
+	private String capacity;
 }
