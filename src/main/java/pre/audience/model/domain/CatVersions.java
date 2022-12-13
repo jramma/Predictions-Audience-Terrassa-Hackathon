@@ -22,14 +22,17 @@ public class CatVersions {
 	private int filmsCatVO;
 	private int filmsCatDubbed;
 	private int filmsCatSubtitled;
+	
 	private int sessions;
 	private int sessionsCatVO;
 	private int sessionsCatDubbed;
 	private int sessionsCatSubtitled;
+	
 	private int viewers;
 	private int viewersCatVO;
 	private int viewersCatDubbed;
 	private int viewersCatSubtitled;
+	
 	private double income;
 	private double incomeCatVO;
 	private double incomeCatDubbed;
