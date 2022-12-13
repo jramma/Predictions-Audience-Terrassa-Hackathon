@@ -13,8 +13,9 @@ import lombok.Setter;
 @NoArgsConstructor
 @Document(collection="cataudiences")
 public class CatAudiences {
-	private String provincia;
-	private String sesiones;
-	private String viewers;
-	private String income;
+	
+	private String region;
+	private int sessions;
+	private int viewers;
+	private double income;
 }

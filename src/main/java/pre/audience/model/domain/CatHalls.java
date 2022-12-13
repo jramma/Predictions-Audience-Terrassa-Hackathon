@@ -14,8 +14,8 @@ import lombok.Setter;
 @Document(collection="cathalls")
 public class CatHalls {
 	
-	private String comarca;
-	private String filmHalls;
-	private String screens;
-	private String capacity;
+	private String region;
+	private int filmHalls;
+	private int screens;
+	private int capacity;
 }
